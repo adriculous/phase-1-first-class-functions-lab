@@ -25,12 +25,6 @@ function createFareMultiplier(fare) {
 
 // declare a variable with const and assign a function returned by createFareMultiplier() to it. Invoke createFareMultiplier() in such a way that the new fareDoubler() function accepts a fare as its lone argument and doubles it.
 
-/* function fareDoubler(fare) {
-  // const doubles = function () {
-  return (fare *= 2);
-  // }
-} */
-
 const fareDoubler = function (fare) {
   return (fare *= 2);
 };
